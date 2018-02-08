@@ -6,6 +6,7 @@ RUN apt-get update && \
     git \
     curl \
     wget \
+    screen \
     build-essential && \
   rm -rf /var/lib/apt/lists/* && \
   git clone https://github.com/robbyrussell/oh-my-zsh.git /etc/oh-my-zsh
